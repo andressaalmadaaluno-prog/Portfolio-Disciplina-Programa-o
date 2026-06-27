@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de programação</title>
+  <desc id="desc">Tela de computador com códigos e símbolos de educação.</desc>
+  <rect width="760" height="600" rx="48" fill="#f5f0ff"/>
+  <rect x="80" y="100" width="600" height="340" rx="40" fill="#ffffff" stroke="#d8c4ff" stroke-width="8"/>
+  <rect x="140" y="160" width="480" height="40" rx="20" fill="#7f4ac6" opacity="0.15"/>
+  <rect x="140" y="230" width="420" height="22" rx="12" fill="#7f4ac6"/>
+  <rect x="140" y="270" width="280" height="22" rx="12" fill="#7f4ac6" opacity="0.9"/>
+  <rect x="140" y="310" width="380" height="22" rx="12" fill="#7f4ac6" opacity="0.6"/>
+  <rect x="140" y="350" width="340" height="22" rx="12" fill="#7f4ac6" opacity="0.9"/>
+  <path d="M220 250h20m-20 40h20m-20 40h20" stroke="#4f2761" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="460" cy="210" r="24" fill="#ffc25a"/>
+  <circle cx="530" cy="210" r="24" fill="#5a2575"/>
+  <circle cx="600" cy="210" r="24" fill="#f1e4ff"/>
+  <path d="M110 470h540" stroke="#d8c4ff" stroke-width="20" stroke-linecap="round"/>
+  <rect x="240" y="490" width="280" height="40" rx="20" fill="#7f4ac6"/>
+  <rect x="300" y="520" width="160" height="18" rx="9" fill="#f1e4ff"/>
+</svg>

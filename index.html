@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Educacional de Programação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Biblioteca Educacional</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#python">Python</a></li>
+        <li><a href="#algoritmos">Algoritmos</a></li>
+        <li><a href="#exercicios">Exercícios</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="badge">Portal Educacional</span>
+          <h1>Conteúdo do seu material de programação</h1>
+          <p>Este site reúne o conteúdo real dos links enviados: apostilas, PDFs e documentos de Python, algoritmos e lógica de programação.</p>
+          <a href="#python" class="btn">Começar a estudar</a>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="assets/hero-illustration.svg" alt="Ilustração de programação" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-light">
+      <h2>Sobre o projeto</h2>
+      <div class="card-grid">
+        <div class="card feature-card">
+          <h3><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 9h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8 13h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8 17h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>Conteúdo real</h3>
+          <p>O site foi montado a partir das fontes originais dos links que você enviou.</p>
+        </div>
+        <div class="card feature-card">
+          <h3><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7.5C4 6.6716 4.6716 6 5.5 6H18.5C19.3284 6 20 6.6716 20 7.5V16.5C20 17.3284 19.3284 18 18.5 18H5.5C4.6716 18 4 17.3284 4 16.5V7.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M7 11H17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M7 14H13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>Aprendizado guiado</h3>
+          <p>Organizamos o material em etapas: Python, algoritmos, exercícios e recursos de estudo.</p>
+        </div>
+        <div class="card feature-card">
+          <h3><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 5h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4 12h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4 19h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>Referências acadêmicas</h3>
+          <p>Inclui material de IFSP, IFRN, CAPES, IFC, UFRN e outras instituições.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="python">
+      <h2>Python para iniciantes</h2>
+      <div class="card resource-card">
+        <p>Os materiais destacam os conceitos básicos de Python:</p>
+        <ul>
+          <li>tipos de dados: <strong>int</strong>, <strong>float</strong>, <strong>str</strong>, <strong>bool</strong>;</li>
+          <li>variáveis, atribuições e operações;</li>
+          <li>programação linear e legível;</li>
+          <li>uso de expressões matemáticas e texto.</li>
+        </ul>
+      </div>
+      <div class="card code-card">
+        <h3>Exemplo de código</h3>
+        <pre><code>num_polos = 4
+ciclos_por_segundo = 60
+tensao = 220.0
+corrente = 12.5
+resistencia = 17.6
+material = "aco_inox"
+engenheiro = "Ana Souza"
+circuito_ligado = True
+print("Tensão:", tensao, "V")
+print("Corrente:", corrente, "A")
+print("Resistência:", resistencia, "Ohm")
+print("Motor ligado?", circuito_ligado)
+</code></pre>
+      </div>
+    </section>
+
+    <section id="algoritmos" class="section-light">
+      <h2>Algoritmos e lógica de programação</h2>
+      <div class="card resource-card">
+        <p>Um algoritmo é uma sequência de passos finitos para resolver um problema. As apostilas mostram que ele deve ser:</p>
+        <ul>
+          <li>claro e objetivo;</li>
+          <li>ordenado;</li>
+          <li>detalhado o suficiente para ser implementado;</li>
+          <li>sem ambiguidades.</li>
+        </ul>
+      </div>
+      <div class="card resource-card">
+        <h3>Resumo dos conceitos</h3>
+        <ul>
+          <li>Pseudocódigo facilita a estruturação antes da programação.</li>
+          <li>Fluxogramas ajudam a visualizar decisões e repetições.</li>
+          <li>Variáveis e operações aritméticas são essenciais em problemas de engenharia.</li>
+          <li>Estruturas condicionais e de repetição aparecem em quase todos os exercícios.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="exercicios">
+      <h2>Exercícios recomendados</h2>
+      <div class="card resource-card">
+        <p>Os recursos originais indicam exercícios que fixam os conceitos de programação e lógica. Exemplos:</p>
+        <ul>
+          <li>cálculo de área de círculo;</li>
+          <li>conversão de unidades e tempo;</li>
+          <li>uso de variáveis numéricas e texto;</li>
+          <li>solução de problemas com condições e repetições.</li>
+        </ul>
+      </div>
+      <div class="card code-card">
+        <h3>Exercício prático</h3>
+        <p>Calcular a área de um círculo com raio de 0.15 m.</p>
+        <pre><code>import math
+raio = 0.15
+area = math.pi * (raio ** 2)
+print(f"Área do círculo: {area:.4f} m²")
+</code></pre>
+      </div>
+    </section>
+
+    <section id="recursos" class="section-light">
+      <h2>Recursos originais</h2>
+      <div class="resource-grid">
+        <div class="card resource-card">
+          <h3>Documentos</h3>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/1FV-3uJOFhyWWBF9Mx6kOhzHNlL2htFEet75vh0dHjIw/edit?usp=sharing" target="_blank">Exercícios e orientações</a></li>
+            <li><a href="https://docs.google.com/document/d/1IsiVnfH7Tz2_i7a8ll3HkS4iiUKPUnIA/edit?usp=sharing&ouid=105937137163721500711&rtpof=true&sd=true" target="_blank">Introdução a algoritmos com Python</a></li>
+            <li><a href="https://drive.google.com/file/d/1S0NM66Rm18fJjp0sNm6gcpFJDR8qUjdU/view?usp=sharing" target="_blank">Recurso extra no Google Drive</a></li>
+          </ul>
+        </div>
+        <div class="card resource-card">
+          <h3>Python</h3>
+          <ul>
+            <li><a href="http://antigo.scl.ifsp.edu.br/portal/arquivos/2016.05.04_Apostila_Python_-_PET_ADS_S%C3%A3o_Carlos.pdf" target="_blank">Apostila Python – PET ADS São Carlos</a></li>
+            <li><a href="https://memoria.ifrn.edu.br/bitstream/handle/1044/2090/EBOOK%20-%20INTRODU%C3%87%C3%83O%20A%20PYTHON%20%28EDITORA%20IFRN%29.pdf?sequence=1&isAllowed=y" target="_blank">Introdução a Python – IFRN</a></li>
+            <li><a href="https://www.kufunda.net/publicdocs/Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%20com%20Python%20algoritmos%20e%20l%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20para%20iniciantes%20%28Nilo%20Ney%20Coutinho%20Menezes%29.pdf" target="_blank">Introdução à Programação com Python – Nilo Ney Menezes</a></li>
+          </ul>
+        </div>
+        <div class="card resource-card">
+          <h3>Algoritmos</h3>
+          <ul>
+            <li><a href="https://educapes.capes.gov.br/bitstream/capes/176223/2/Algoritmos%20e%20Programa%C3%A7%C3%A3o%20I%20EBOOK.pdf" target="_blank">Algoritmos e Programação I – CAPES</a></li>
+            <li><a href="https://professor.luzerna.ifc.edu.br/marcelo-cendron/wp-content/uploads/sites/40/2017/02/Apostila-Conceitos-de-Programa%C3%A7%C3%A3o.pdf" target="_blank">Apostila Conceitos de Programação – IFC</a></li>
+            <li><a href="https://www.dca.ufrn.br/~affonso/DCA800/pdf/algoritmos_parte1.pdf" target="_blank">Algoritmos Parte 1 – UFRN</a></li>
+            <li><a href="https://www.ime.usp.br/~leo/mac2166/2017-1/" target="_blank">MAC 2166 – USP</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="dicas">
+      <h2>Como estudar</h2>
+      <div class="card resource-card">
+        <ul>
+          <li>Estude os conceitos básicos antes de resolver exercícios.</li>
+          <li>Abra os links originais para conferir o material completo.</li>
+          <li>Pratique escrevendo código, não apenas lendo.</li>
+          <li>Compare suas respostas com as apostilas para entender a lógica.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-content">
+      <p>Autor: Andressa</p>
+      <p>Site criado a partir de conteúdos reais dos links enviados.</p>
+      <p><a href="https://github.com/andressaalmadaaluno-prog/Portfolio-Disciplina-Programa-o" target="_blank">Repositório GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

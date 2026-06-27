@@ -1,0 +1,41 @@
+# Questões e Dicas
+
+## 1. Área de um círculo
+**Pergunta:** Calcule a área de um círculo cujo raio é 0.15 m. Escreva o código em Python.
+
+**Dica:** Use a fórmula A = π r² e a biblioteca `math` para obter π.
+
+---
+
+## 2. Conversão de tempo
+**Pergunta:** Converta um total de 3670 segundos em horas, minutos e segundos.
+
+**Dica:** Use divisões inteiras e o operador módulo (`%`).
+
+---
+
+## 3. Pseudocódigo
+**Pergunta:** Escreva um pseudocódigo que leia três números e mostre o maior entre eles.
+
+**Dica:** Comece assumindo que o primeiro número é o maior e compare com os demais.
+
+---
+
+## 4. Trace de programa
+**Pergunta:** Qual será a saída do código Python abaixo?
+
+```python
+a = 5
+b = 2
+c = a // b
+print(c)
+```
+
+**Dica:** O operador `//` realiza divisão inteira.
+
+---
+
+## 5. Problema de engenharia simples
+**Pergunta:** Dado tensão = 220 V e resistência = 17.6 Ω, calcule a corrente (I) usando a Lei de Ohm.
+
+**Dica:** Use `I = V / R`.

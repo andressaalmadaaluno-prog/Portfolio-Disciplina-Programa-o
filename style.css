@@ -284,6 +284,10 @@ code {
 
 .link-card:hover { background: #f6f1ff; }
 
+/* Small tweak for respostas page */
+.actions { display: flex; gap: 12px; align-items: center; }
+.actions .btn { padding: 10px 14px; font-size: 0.95rem; }
+
 footer {
   background: #fff;
   border-top: 1px solid #ece7f1;

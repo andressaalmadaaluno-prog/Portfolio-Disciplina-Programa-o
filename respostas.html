@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Respostas — Biblioteca Educacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Biblioteca Educacional</div>
+    <nav><ul><li><a href="index.html">Início</a></li><li><a href="atividades.html">Amostras</a></li><li><a href="questoes.html">Perguntas</a></li></ul></nav>
+  </header>
+  <main>
+    <section class="section-light">
+      <h2>Respostas</h2>
+      <div class="question-grid">
+        <article class="question-card">
+          <h3>1. Área de um círculo</h3>
+          <pre><code>import math
+raio = 0.15
+area = math.pi * (raio ** 2)
+print(f"Área do círculo: {area:.4f} m²")</code></pre>
+        </article>
+
+        <article class="question-card">
+          <h3>2. Conversão de tempo</h3>
+          <pre><code>total = 3670
+horas = total // 3600
+resto = total % 3600
+minutos = resto // 60
+segundos = resto % 60
+print(horas, 'h', minutos, 'm', segundos, 's')</code></pre>
+        </article>
+
+        <article class="question-card">
+          <h3>3. Pseudocódigo</h3>
+          <pre><code>ler a, b, c
+maior = a
+se b &gt; maior então
+  maior = b
+fimse
+se c &gt; maior então
+  maior = c
+fimse
+imprimir maior</code></pre>
+        </article>
+
+        <article class="question-card">
+          <h3>4. Trace de programa</h3>
+          <p>Saída: <strong>2</strong> (divisão inteira)</p>
+        </article>
+
+        <article class="question-card">
+          <h3>5. Problema de engenharia simples</h3>
+          <pre><code>tensao = 220.0
+resistencia = 17.6
+corrente = tensao / resistencia
+print(f"Corrente: {corrente:.2f} A")</code></pre>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><a href="index.html">Voltar</a></p>
+  </footer>
+</body>
+</html>

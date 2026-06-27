@@ -265,6 +265,25 @@ code {
   .hero-grid { grid-template-columns: 1fr; }
 }
 
+.link-cards {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.link-card {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(125,80,180,0.12);
+  color: #5a2575;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.link-card:hover { background: #f6f1ff; }
+
 footer {
   background: #fff;
   border-top: 1px solid #ece7f1;

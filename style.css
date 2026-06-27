@@ -230,6 +230,41 @@ code {
   text-decoration: underline;
 }
 
+/* Questões */
+.question-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.question-card {
+  background: linear-gradient(180deg, #ffffff, #fbf7ff);
+  border-radius: 16px;
+  padding: 18px;
+  border: 1px solid rgba(146, 114, 183, 0.09);
+}
+
+.question-card h3 {
+  margin-bottom: 10px;
+  color: #4f2761;
+}
+
+.question-card details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #6e2f86;
+  margin-top: 10px;
+}
+
+.question-card pre {
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .question-grid { grid-template-columns: 1fr; }
+  .hero-grid { grid-template-columns: 1fr; }
+}
+
 footer {
   background: #fff;
   border-top: 1px solid #ece7f1;

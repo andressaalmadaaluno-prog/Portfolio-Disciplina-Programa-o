@@ -55,6 +55,24 @@
       </div>
     </section>
 
+    <section id="o-que-encontrar" class="section-light">
+      <h2>O que você vai encontrar</h2>
+      <div class="card-grid">
+        <div class="card feature-card">
+          <h3>Explicações de Python</h3>
+          <p>Conceitos de variáveis, tipos, operações e código simples para iniciar sua prática.</p>
+        </div>
+        <div class="card feature-card">
+          <h3>Algoritmos e lógica</h3>
+          <p>Definições de algoritmo, pseudocódigo, fluxogramas e como pensar em passos lógicos.</p>
+        </div>
+        <div class="card feature-card">
+          <h3>Exercícios práticos</h3>
+          <p>Exemplos de exercícios de cálculo, conversão e lógica com soluções em Python.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="python">
       <h2>Python para iniciantes</h2>
       <div class="card resource-card">
@@ -171,6 +189,79 @@ print(f"Área do círculo: {area:.4f} m²")
       </div>
     </section>
   </main>
+
+    <section id="questoes" class="section-light">
+      <h2>Questões para praticar</h2>
+      <div class="question-grid">
+        <article class="question-card">
+          <h3>1. Área de um círculo</h3>
+          <p>Calcule a área de um círculo cujo raio é 0.15 m. Escreva o código em Python.</p>
+          <details>
+            <summary>Resposta (mostrar)</summary>
+            <pre><code>import math
+raio = 0.15
+area = math.pi * (raio ** 2)
+print(f"Área do círculo: {area:.4f} m²")</code></pre>
+          </details>
+        </article>
+
+        <article class="question-card">
+          <h3>2. Conversão de tempo</h3>
+          <p>Converta um total de 3670 segundos em horas, minutos e segundos.</p>
+          <details>
+            <summary>Resposta (mostrar)</summary>
+            <pre><code>total = 3670
+horas = total // 3600
+resto = total % 3600
+minutos = resto // 60
+segundos = resto % 60
+print(horas, 'h', minutos, 'm', segundos, 's')</code></pre>
+          </details>
+        </article>
+
+        <article class="question-card">
+          <h3>3. Pseudocódigo</h3>
+          <p>Escreva um pseudocódigo que leia três números e mostre o maior entre eles.</p>
+          <details>
+            <summary>Resposta (mostrar)</summary>
+            <pre><code>ler a, b, c
+maior = a
+se b &gt; maior então
+  maior = b
+fimse
+se c &gt; maior então
+  maior = c
+fimse
+imprimir maior</code></pre>
+          </details>
+        </article>
+
+        <article class="question-card">
+          <h3>4. Trace de programa</h3>
+          <p>Qual será a saída do código Python abaixo?</p>
+          <pre><code>a = 5
+b = 2
+c = a // b
+print(c)</code></pre>
+          <details>
+            <summary>Resposta (mostrar)</summary>
+            <p>Saída: <strong>2</strong> (divisão inteira)</p>
+          </details>
+        </article>
+
+        <article class="question-card">
+          <h3>5. Problema de engenharia simples</h3>
+          <p>Dado tensão = 220 V e resistência = 17.6 Ω, calcule a corrente (I) usando a Lei de Ohm.</p>
+          <details>
+            <summary>Resposta (mostrar)</summary>
+            <pre><code>tensao = 220.0
+resistencia = 17.6
+corrente = tensao / resistencia
+print(f"Corrente: {corrente:.2f} A")</code></pre>
+          </details>
+        </article>
+      </div>
+    </section>
 
   <footer id="contato">
     <div class="footer-content">

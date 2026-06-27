@@ -14,20 +14,35 @@
   <main>
     <section class="section-light">
       <h2>Perguntas (sem respostas)</h2>
+      <div class="actions" style="margin-bottom:12px;">
+        <button id="toggle-hints" class="btn">Mostrar todas as dicas</button>
+      </div>
       <div class="question-grid">
         <article class="question-card">
           <h3>1. Área de um círculo</h3>
           <p>Calcule a área de um círculo cujo raio é 0.15 m. Escreva o código em Python.</p>
+          <details class="hint">
+            <summary>Dica</summary>
+            <p>Use a fórmula A = π r² e a biblioteca <code>math</code> para obter π.</p>
+          </details>
         </article>
 
         <article class="question-card">
           <h3>2. Conversão de tempo</h3>
           <p>Converta um total de 3670 segundos em horas, minutos e segundos.</p>
+          <details class="hint">
+            <summary>Dica</summary>
+            <p>Use divisões inteiras e o operador módulo (%).</p>
+          </details>
         </article>
 
         <article class="question-card">
           <h3>3. Pseudocódigo</h3>
           <p>Escreva um pseudocódigo que leia três números e mostre o maior entre eles.</p>
+          <details class="hint">
+            <summary>Dica</summary>
+            <p>Comece assumindo que o primeiro número é o maior e compare com os demais.</p>
+          </details>
         </article>
 
         <article class="question-card">
@@ -37,15 +52,35 @@
 b = 2
 c = a // b
 print(c)</code></pre></p>
+          <details class="hint">
+            <summary>Dica</summary>
+            <p>Operator <code>//</code> realiza divisão inteira.</p>
+          </details>
         </article>
 
         <article class="question-card">
           <h3>5. Problema de engenharia simples</h3>
           <p>Dado tensão = 220 V e resistência = 17.6 Ω, calcule a corrente (I) usando a Lei de Ohm.</p>
+          <details class="hint">
+            <summary>Dica</summary>
+            <p>Use I = V / R.</p>
+          </details>
         </article>
       </div>
     </section>
   </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const btn = document.getElementById('toggle-hints');
+      const hints = Array.from(document.querySelectorAll('details.hint'));
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        const anyClosed = hints.some(h => !h.open);
+        hints.forEach(h => h.open = anyClosed);
+        btn.textContent = anyClosed ? 'Ocultar todas as dicas' : 'Mostrar todas as dicas';
+      });
+    });
+  </script>
   <footer>
     <p><a href="index.html">Voltar</a></p>
   </footer>

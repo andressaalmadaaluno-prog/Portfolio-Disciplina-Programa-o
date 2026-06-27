@@ -288,6 +288,9 @@ code {
 .actions { display: flex; gap: 12px; align-items: center; }
 .actions .btn { padding: 10px 14px; font-size: 0.95rem; }
 
+.hint summary { cursor: pointer; font-weight: 600; color: #6e2f86; }
+.hint p { margin-top: 8px; }
+
 footer {
   background: #fff;
   border-top: 1px solid #ece7f1;
